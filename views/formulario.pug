@@ -1,0 +1,9 @@
+html
+	head
+		title!=title
+	body
+		h1!=header
+		form(action="/formu", method="POST")
+			p="Ingrese su nombre:"
+			input(type="textbox", name='user')
+			input(type="submit", value="Enviar")
